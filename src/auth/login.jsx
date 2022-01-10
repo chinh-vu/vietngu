@@ -74,25 +74,3 @@ export default connect((state, props) => {
         loggedIn: state.loggedIn
     }
 })(Login)
-
-   // $(".toggle-password").click(function() {
-
-    //     $(this).toggleClass("fa-eye fa-eye-slash");
-    //     var input = $($(this).attr("toggle"));
-    //     if (input.attr("type") == "password") {
-    //       input.attr("type", "text");
-    //     } else {
-    //       input.attr("type", "password");
-    //     }
-    //   });
-
-
-    /**
-     * <form className="form-inline">
-                    <input className="form-control mr-sm-2" id="username" name="username" placeholder="User Name" aria-label="UserName"
-                        value={username} onChange={handleChangeEvent} />
-                    <input className="form-control mr-sm-2" id="password" name="password" type="password" placeholder="Password" aria-label="Password"
-                        value={password} onChange={handleChangeEvent} />
-                    <button className="btn btn-sm btn-outline-secondary" onClick={login}>Login</button>
-                </form>
-     */
